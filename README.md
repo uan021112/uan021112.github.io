@@ -15,6 +15,7 @@
 - 联系方式位于 `.profile-links`，包含 Email、Google Scholar、WeChat 和 GitHub；CV 暂以不可点击的灰色文字显示，不使用空链接。
 - 页脚保留指定致谢，并链接至 Jon Barron 的网站和源码仓库。
 - Research 中的论文条目位于 `.publications`；当前文章标注为 `Under review`，标题与 `SSRN` 指向论文页面，`GitHub` 指向[项目仓库](https://github.com/uan021112/Feed-forward_model_meets_AR)。
+- 作者名单位于 `.publication-authors`，按项目 README 的署名顺序维护；Tianchi Luan 为黑色加粗，其余作者默认为蓝色。有已知主页的姓名添加链接，其余保留为纯文本。
 
 字体沿用原模板的 Lato，从 Google Fonts CDN 加载；不可用时使用系统字体。
 

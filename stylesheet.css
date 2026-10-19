@@ -172,6 +172,19 @@ h2 {
   font-weight: 700;
 }
 
+.publication-authors {
+  margin: 4px 0;
+  color: #1772d0;
+}
+
+.publication-authors > * {
+  white-space: nowrap;
+}
+
+.publication-authors strong {
+  color: #000;
+}
+
 .publication-status {
   margin: 4px 0;
 }
