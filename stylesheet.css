@@ -30,7 +30,8 @@ a:focus-visible {
 }
 
 a:focus-visible,
-.profile-photo:focus-visible {
+.profile-photo:focus-visible,
+.pronunciation-trigger:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 3px;
 }
@@ -73,6 +74,56 @@ main {
 
 .name span {
   white-space: nowrap;
+}
+
+.name-pronunciation {
+  position: relative;
+  display: inline-block;
+  margin-left: 3px;
+  margin-bottom: -8px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  vertical-align: super;
+}
+
+.pronunciation-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  background: transparent;
+  color: #757575;
+  font: 700 12px/1 'Lato', Verdana, Helvetica, sans-serif;
+  cursor: help;
+  touch-action: manipulation;
+}
+
+.pronunciation-trigger:hover,
+.pronunciation-trigger:focus-visible {
+  color: #1772d0;
+}
+
+.name .pronunciation-tooltip {
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  right: 0;
+  width: max-content;
+  max-width: calc(100vw - 40px);
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  color: #333;
+  box-shadow: 0 3px 12px rgb(0 0 0 / 10%);
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  white-space: normal;
 }
 
 .biography {

@@ -7,13 +7,22 @@
     <link rel="icon" href="data:,">
     <link rel="stylesheet" href="stylesheet.css">
     <script type="module" src="avatar.js"></script>
+    <script type="module" src="pronunciation.js"></script>
   </head>
   <body>
     <div class="site">
       <main>
         <header class="profile">
           <div class="profile-text">
-            <h1 class="name">Tianchi Luan <span lang="zh-CN">（栾天驰）</span></h1>
+            <h1 class="name">
+              Tianchi Luan <span lang="zh-CN">（栾天驰）<span class="name-pronunciation" lang="en">
+                <button class="pronunciation-trigger" type="button" aria-label="Name pronunciation" aria-describedby="name-pronunciation">!</button>
+                <span class="pronunciation-tooltip" id="name-pronunciation" role="tooltip" hidden>
+                  Pinyin: <span lang="zh-Latn-pinyin">Tiānchí Luán</span><br>
+                  IPA: <span lang="zh-fonipa">[tʰjɛn˥ tʂʰɻ̩˧˥ lwan˧˥]</span>
+                </span>
+              </span></span>
+            </h1>
             <div class="biography">
               <p>I am a Master's student at the <a href="https://vrlab.buaa.edu.cn/">State Key Laboratory of Virtual Reality Technology and Systems</a>, School of Computer Science and Engineering, Beihang University, advised by Prof. <a href="https://scse.buaa.edu.cn/info/1078/2661.htm">Yue Qi</a>.</p>
               <p>My research focuses on 3D Vision and Extended Reality (XR), particularly learning-based 3D reconstruction and hierarchical semantic representations for real-world XR applications.</p>
