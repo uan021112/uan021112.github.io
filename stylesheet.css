@@ -31,7 +31,8 @@ a:focus-visible {
 
 a:focus-visible,
 .profile-photo:focus-visible,
-.pronunciation-trigger:focus-visible {
+.pronunciation-trigger:focus-visible,
+.artwork-scroll:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 3px;
 }
@@ -179,7 +180,7 @@ main {
   object-position: center 20%;
 }
 
-.research {
+.content-section {
   padding: 16px;
 }
 
@@ -252,6 +253,70 @@ h2 {
   margin: 0;
 }
 
+.art-page {
+  padding: 40px 16px 16px;
+}
+
+.art-header {
+  margin-bottom: 28px;
+}
+
+.art-header h1 {
+  margin: 16px 0 8px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.art-header p {
+  margin: 0;
+}
+
+.artwork-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 28px 24px;
+}
+
+.artwork {
+  min-width: 0;
+  margin: 0;
+}
+
+.artwork--wide {
+  grid-column: 1 / -1;
+}
+
+.artwork-image,
+.artwork img {
+  display: block;
+}
+
+.artwork img {
+  width: 100%;
+  height: auto;
+}
+
+.artwork-scroll {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.artwork figcaption {
+  margin-top: 10px;
+}
+
+.artwork h2 {
+  font-size: 18px;
+}
+
+.artwork figcaption p {
+  margin: 6px 0 0;
+  color: #555;
+  font-size: 12px;
+}
+
 .site-footer {
   padding: 20px 16px 24px;
   font-size: 12px;
@@ -280,6 +345,10 @@ h2 {
   .publication {
     grid-template-columns: 1fr;
     gap: 12px;
+  }
+
+  .artwork-grid {
+    grid-template-columns: 1fr;
   }
 
   .site-footer {
