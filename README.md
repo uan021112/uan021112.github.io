@@ -16,7 +16,7 @@ A static academic homepage based on [Jon Barron's website](https://jonbarron.inf
 - `images/art-design/`: Original artwork with English filenames: `dormitory-bed-labels.jpg`, `youth-league-recruitment.jpg`, and `freshman-welcome-poster.jpg`.
 - `youth-league-recruitment-preview.jpg` and `freshman-welcome-poster-preview.jpg`: Lightweight gallery previews in the same artwork directory. They do not overwrite the originals. Each work links to its original image; the recruitment original is approximately 64 MB and loads only when its full-image link is opened.
 - When changing the name, update the page `title`, avatar `alt`, and the Pinyin and IPA in the pronunciation tooltip. Replace `images/avatar.png` to update the profile photo, and use only valid personal links.
-- Contact links are in `.profile-links`: Email, Google Scholar, WeChat, and GitHub. CV is currently disabled gray text rather than an empty link.
+- Contact links are in `.profile-links`: Email, CV, Google Scholar, WeChat, and GitHub. CV opens `PhD_Application_CV.pdf` in the repository root; replace this file to update the CV.
 - Keep the footer attribution and its links to Jon Barron's website and source repository.
 - Paper entries in Publications are inside `.publications`. The current paper is marked `Under review`; its title and `SSRN` link point to the paper page, and `GitHub` links to the [project repository](https://github.com/uan021112/Feed-forward_model_meets_AR).
 - Authors are listed in `.publication-authors` in the confirmed order. Tianchi Luan is bold black text; the remaining authors are blue. Add links for known homepages and leave other names as plain text.

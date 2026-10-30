@@ -152,10 +152,6 @@ main {
   margin: 0 8px;
 }
 
-.profile-links [aria-disabled='true'] {
-  color: #757575;
-}
-
 .profile-photo {
   display: block;
   width: calc(100% - 40px);
