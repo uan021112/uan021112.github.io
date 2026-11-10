@@ -27,7 +27,7 @@ The site retains the template's Lato font, loaded from Google Fonts, with system
 ## Local preview
 
 ```sh
-python3 -m http.server 10925 --bind 0.0.0.0
+python3 -m http.server 10924 --bind 0.0.0.0
 ```
 
-Open <http://127.0.0.1:10925/> on this machine. Other devices on the same network can use `http://YOUR_LAN_IP:10925/`. The Art & Design gallery is at `/art-design/`. GitHub Pages can serve the site directly from the repository root without installing dependencies.
+Open <http://127.0.0.1:10924/> on this machine. Other devices on the same network can use `http://YOUR_LAN_IP:10924/`. The Art & Design gallery is at `/art-design/`. GitHub Pages can serve the site directly from the repository root without installing dependencies.
